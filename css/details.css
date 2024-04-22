@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.kty,
+.shipping,
+.tax,
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+.order-details {
+  width: 400px;
+}
